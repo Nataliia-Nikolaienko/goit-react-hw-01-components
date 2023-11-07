@@ -1,0 +1,30 @@
+.transactionHistory {
+  width: 100%;
+}
+
+.head {
+  background-color: rgb(57, 182, 141);
+}
+
+.type {
+  background-color: rgb(190, 223, 223);
+}
+
+.amount {
+  background-color: rgb(190, 223, 223);
+}
+
+.currency {
+  background-color: rgb(190, 223, 223);
+}
+
+.body .amount,
+.body .currency {
+  text-align: center;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+  border: 1px solid black;
+  padding: 10px;
+}
