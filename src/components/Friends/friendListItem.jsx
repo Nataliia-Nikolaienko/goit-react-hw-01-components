@@ -6,9 +6,7 @@ const FriendListItem = ({ id, avatar, name, isOnline }) => {
   return (
     <li key={id} className={css.item}>
       <span
-        className={clsx(css.status, {
-          [css.isOnline]: isOnline,
-        })}
+        className={clsx(css.status, isOnline ? css.isOnline : css.isOffline)}
       >
         {isOnline}
       </span>
